@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookMania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <div class="search">
+                <h2 class="title">Find Meals According To Your Needs</h2>
+                <blockquote>“A recipe has no soul. You as the cook must bring soul to the recipe.”<br><cite>– Thomas Keller</cite></blockquote>
+                <div class="search-box">
+                    <input type="text" class="search-control" placeholder="Enter your ingredients"id = "search-input">
+                    <button type = "submit" class = "search-btn btn" id = "search-btn">
+                        <i class = "fas fa-search"></i> 
+                    </button>
+                </div>
+            </div>
+            <div class = "meal-result">
+                <h2 class = "title">Your Search Results:</h2>
+                <div id="meal">
+                    <!-- <div class = "meal-item">
+                      <div class="meal-img">
+                        <img src="food.jpg" alt="food">
+                      </div> 
+                      <div class="meal-name">
+                        <h3>Potato French Fries</h3>
+                        <a href = "#" class="recipe-btn">Get Recipe</a>
+                      </div>
+                    </div> -->
+                
+                </div>
+            </div>
+
+            <div class="meal-details">
+                <!-- iruxreba recepti -->
+                <button type="button" class = "btn recipe-close-btn"
+                id="recipe-close-btn">
+                <i class = "fas fa-times"></i>
+            </button>
+            <!-- aq meal -->
+            <div class = "meal-details-content">
+                <!-- <h2 class="recipe-title">Meals Name Here</h2>
+                <p class = "recipe-category">Category Name</p>
+                <div class = "recipe-instruct">
+                    <h3>Instructions</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ad tenetur a quos laborum laudantium vel blanditiis 
+                        consequuntur corrupti eveniet, excepturi, quod impedit consequatur 
+                        necessitatibus culpa est reprehenderit ratione asperiores earum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At labore
+                            saepe repellendus rem, totam deleniti id, iusto facilis expedita praesentium sunt. 
+                            Possimus odio sequi doloremque. Non doloremque dolorum vel accusamus!</p>
+                </div> -->
+                <div class = "recipe-img">
+                    <img src="food.jpg" alt="meal">
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
